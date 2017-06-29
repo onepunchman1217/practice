@@ -1,0 +1,39 @@
+@media all and (min-width:700px) and (max-width:999px){
+	
+	/*文字单词*/
+.text-word{
+	width: 460px;
+	height: 120px;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -300px;
+	text-align: center;
+	background: #ccc;
+}
+.text-word span{
+	font: 48px/60px serif;
+	position: absolute;
+}
+.text-word-1{
+	top: 500px;
+	left: 0px;
+}
+.text-word-2{
+	top: 500px;
+	left: 182px;
+}
+.text-word-3{
+	top: 500px;
+	right: 0px;
+}
+.text-word-4{
+	top: 550px;
+	left: 44px;
+}
+.text-word-5{
+	top: 550px;
+	right: 44px;
+}
+/*media的括号*/	
+}

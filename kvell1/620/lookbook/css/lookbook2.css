@@ -1,0 +1,61 @@
+@media all and (min-width:0) and (max-width:1300px){
+
+
+.bg{
+	width: 100%;
+	padding-top:105px;
+	overflow: hidden;
+}
+/*最上面部分*/
+.look-content1{
+	box-sizing: border-box;
+	position: relative;
+	height: 33%;
+}
+/*椅子图片部分*/
+.chair img{
+	width: 100%;
+	height:100%;
+}
+/*右侧图片*/
+.info-right1{
+	height:50%;
+	position: relative;
+}
+.info-right1 img{
+	width: 100%;
+	height:100%;
+}
+/*    第二部分图片*/
+.look-content2{
+	box-sizing: border-box;
+	position: relative;
+	height: 17%;
+	margin-top: 50px;
+}
+.look-content2 img{
+	width:100%;
+}
+/*第三部分*/
+.look-content3{
+	box-sizing: border-box;
+	position: relative;
+	height:33%;
+	margin-top: 50px;
+}
+.look-content3 img{
+	width:100%;
+}
+.look-content4{
+	box-sizing: border-box;
+	position: relative;
+	height:17%;
+	margin-top: 50px;
+}
+.look-content4 img{
+	width:100%;
+}
+.container div{
+	display: none;
+}
+}

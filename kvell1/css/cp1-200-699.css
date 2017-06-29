@@ -1,0 +1,55 @@
+@media all and (min-width:200px) and (max-width:699px){
+.picture-floor1-box1,.picture-floor1-box2{
+	margin: 40px auto;
+}
+.picture-floor1-box1{
+	width: 380px;
+	height: 254px;
+	margin-bottom: 80px;
+	position: relative;
+}
+.picture-floor1-box1-zz{
+	width: 380px;
+	height: 254px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000000;
+	opacity: 0.5;
+	z-index: 100;
+	display: none;
+}
+.picture-floor1-box1 img{
+	width: 380px;
+	height: 254px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.picture-floor1-box2{
+	width: 380px;
+	height: 254px;
+	margin-bottom: 80px;
+	position: relative;
+	margin: 0 auto;
+}
+.picture-floor1-box2-zz{
+	width: 380px;
+	height: 254px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000000;
+	opacity: 0.5;
+	z-index: 100;
+	display: none;
+}
+.picture-floor1-box2 img{
+	width: 380px;
+	height: 254px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+	
+}

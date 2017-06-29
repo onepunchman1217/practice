@@ -1,0 +1,234 @@
+body{
+	background: rgb(191, 191, 191);
+	padding-top: 300px;
+}
+/*中心大标题*/
+.c-heading{
+	width: 500px;
+	color: #FFF;
+    font: 900 200px/200px "Moderat Trial","sans-serif";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    margin: 0 auto;
+    z-index: -1;
+}
+/*menu*/
+
+
+/*第一层介绍部分*/
+.introduce{
+	width: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	margin-bottom: 50px;
+}
+/*第一层介绍部分的文字块*/
+.introduce-word{
+	width: 400px;
+}
+.introduce-word-title{
+	font: 300 30px/30px "FarnhamDisplay","serif";
+	margin-bottom: 20px;
+}
+.introduce-word-content{
+	font: 16px/30px "FarnhamDisplay","serif";
+	margin-bottom: 50px;
+}
+.introduce-word-size,.introduce-word-color{
+	font: 12px/50px '';
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.introduce-word-size{
+	border-bottom: none;
+}
+.introduce-word-color{
+	margin-bottom: 50px;
+}
+.introduce-word-size1,.introduce-word-color1{
+	float: left;
+	width: 70px;
+}
+.introduce-word-size2,.introduce-word-color2{
+	float: left;
+}
+.introduce-word-color2{
+	width: 300px;
+	font: 12px/25px '';
+}
+/*文字部分的颜色图*/
+.introduce-word-colorimg img{
+	float: left;
+	width: 40px;
+	margin-left: 10px;
+}
+/*介绍部分的椅子图*/
+.introduce-img{
+	width: 500px;
+}
+.introduce-img img{
+	width: 500px;
+}
+
+
+/*第二部分图片*/
+.picture{
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	box-sizing: border-box;
+}
+.picture-floor1{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.picture-floor1 img{
+	opacity: 0;
+	transition: 1.5s;
+}
+.picture-floor1-box1{
+	width: 600px;
+	height: 400px;
+	margin-bottom: 80px;
+	position: relative;
+}
+.picture-floor1-box1-zz{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000000 url(../img/cp1/fdj.png) no-repeat 50% 50%;
+	opacity: 0;
+	z-index: 100;
+}
+.picture-floor1-box1 img{
+	width: 600px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.picture-floor1-box2{
+	width: 380px;
+	height: 254px;
+	position: relative;
+	margin: auto 0;
+}
+
+.picture-floor1-box2-zz{
+	width: 380px;
+	height: 254px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000000 url(../img/cp1/fdj.png) no-repeat 50% 50%;
+	opacity: 0;
+	z-index: 100;
+}
+
+.picture-floor1-box2 img{
+	width: 380px;
+	height: 254px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.button-back{
+	width: 140px;
+	height: 60px;
+	position: fixed;
+	right: 50px;
+	top: 50px;
+	z-index: 2000;
+}
+.button-back-gb{
+	width: 140px;
+	height: 60px;
+	background: #000000;
+	opacity: 0.5;
+	border-radius: 50px;
+}
+.button-back-x{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #000000;
+}
+.button-back-x img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.button-back-back{
+	font: 20px/60px 'Moderat Trial';
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	right: 65px;
+}
+.bigzhezhao{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 3000;
+}
+.bigzhezhao .beijing{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.8;
+}
+.bigzhezhaodatu{
+	height: 90%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1;
+}
+.bigzhezhaoLeft{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 20px;
+	margin: auto 0;
+}
+.bigzhezhaoLeft img .bigzhezhaoRight img{
+	width: 50px;
+	height: 50px;
+}
+.bigzhezhaoRight{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 20px;
+	margin: auto 0;
+}
+

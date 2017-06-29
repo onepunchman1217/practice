@@ -1,0 +1,314 @@
+@media all and (min-width:600px) and (max-width:1100px){
+
+
+
+.bg {
+  width: 100% !important;
+  margin: 0 !important;
+  padding-top:1%;
+}
+.content1 {
+	box-sizing: border-box;
+  background-color: #e8e0d3;
+  height: 900px;
+  position: relative;
+  margin: 0;
+}
+.title-contact{
+  height: 204px;
+  line-height: 204px;
+  text-align: center;
+  font-size: 19vw;
+  font-weight: 700;
+  letter-spacing: -10px;
+  color: #FFFFFF;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 650px;
+  opacity: 0;
+}
+/*menu菜单按钮*/
+.button-menu {
+  width: 170px;
+	height: 70px;
+  position: fixed;
+  left: 50px;
+	top:50px;
+  z-index: 900;
+}
+.button-menu_circle {
+  display: inline-block;
+  width: 50px;
+	height: 50px;
+	margin: 10px;
+  border-radius: 50%;
+  background: #e8e0d3;
+  position: relative;
+  z-index: 1500;
+}
+.content2-btn3 .button-menu_circle {
+  display: inline-block;
+  width: 50px;
+	height: 50px;
+	margin: 10px;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  z-index: 1500;
+}
+.button-menu_circle_icon {
+  width: 16px;
+	height: 10px;
+	border-top: 2px solid #101010;
+	border-bottom: 2px solid #101010;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: .2s;
+}
+.button-menu_circle_move {
+  width: 170px;
+	height: 70px;
+	border-radius: 35px;
+  background: #101010;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(filter=0);
+}
+.button-menu_circle_word {
+  position: absolute;
+ 	top: 0;
+	left: 30px;
+	font: 20px/70px 'Moderat Trial';
+  color: #FFFFFF;
+  opacity: 0;
+}
+.button-menu .button-menu_circle {
+  display: inline-block;
+  width: 50px;
+	height: 50px;
+	margin: 10px;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  z-index: 1500;
+}
+/*-----表单------*/
+.content2-btn1 {
+  width: 254px;
+  height: 70px;
+  position: absolute;
+  left: 180px;
+  top: 280px;
+  background: #fff;
+  border-radius: 35px;
+  transition: 0.3s;
+}
+.content2-btn2 {
+  width: 254px;
+  height: 70px;
+  position: absolute;
+  left:180px;
+  top: 380px;
+  background: #fff;
+  border-radius: 35px;
+  transition: 0.3s;
+}
+.button-menu_circle_dian1 {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: .2s;
+}
+.content2-btn3 .button-menu_circle_dian1 {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #101010;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: .2s;
+}
+.button-menu_circle_text {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  font-size: 20px;
+  line-height: 70px;
+  color: #e8e0d3;
+  transition: .2s;
+}
+.txt-btn {
+  position: absolute;
+  left: 160px;
+  top: 335px;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000;
+  font-weight: 500;
+}
+.inps-all {
+  width: 560px;
+  height: 640px;
+  position: absolute;
+  right: 100px;
+  top:280px;
+}
+.o-input1 {
+  width: 272px;
+  height: 72px;
+  position: absolute;
+  top:20px;
+}
+.o-label {
+  width: 100%;
+  height: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+#name,
+#Phone,
+#Email,
+#company {
+  width: 100%;
+  height: 30px;
+  padding-bottom: 6px;
+  outline: none;
+  border-bottom: 2px solid #000000;
+  font-size:20px;
+  line-height:20px;
+}
+.o-input2 {
+  width: 272px;
+  height: 72px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.o-input3 {
+  width: 272px;
+  height: 72px;
+  position: absolute;
+  top: 140px;
+}
+.o-input4 {
+ width: 272px;
+  height: 72px;
+  position: absolute;
+  right:0;
+  top: 140px;
+}
+.o-input5 {
+  width: 640px;
+  height: 110px;
+  position: absolute;
+  top: 260px;
+}
+.o-label1 {
+  width: 100%;
+  height:24px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+#words {
+  width: 560px;
+  height: 100px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #000000;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 500;
+  outline: none;
+}
+.content2-btn3 {
+  width: 254px;
+  height:70px;
+  position: absolute;
+  right: 40px;
+  bottom: 120px;
+  background: #101010;
+  border-radius: 35px;
+  transition: 0.3s;
+}
+.button-menu_circle_text1 {
+  position: absolute;
+  top: 0;
+  left: 110px;
+  font-size: 20px;
+  line-height: 70px;
+  color: #FFFFFF;
+  transition: .2s;
+}
+/*hover*/
+.content2-btn1:hover {
+  transform: scale(1.2);
+  background: #101010;
+}
+.content2-btn1:hover .button-menu_circle_text {
+  color: #fff;
+}
+.content2-btn1:hover .button-menu_circle {
+  background: #fff;
+}
+.content2-btn1:hover .button-menu_circle_dian1 {
+  transform: scale(2);
+  background: #101010;
+}
+/*btn2*/
+.content2-btn2:hover {
+  transform: scale(1.2);
+    background: #101010;
+}
+.content2-btn2:hover .button-menu_circle_text {
+  color: #fff;
+}
+.content2-btn2:hover .button-menu_circle {
+  background: #fff;
+}
+.content2-btn2:hover .button-menu_circle_dian1 {
+  transform: scale(2);
+  background: #101010;
+}
+.content2-btn3:hover {
+  transform: scale(1.2);
+}
+.content2-btn3:hover .button-menu_circle_dian1 {
+  transform: scale(2);
+}
+/*表单聚焦*/
+.sps{
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background: #fff;
+  transition: 1s;
+}
+.txt{
+  display: none;
+}
+}

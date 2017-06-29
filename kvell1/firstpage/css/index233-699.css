@@ -1,0 +1,57 @@
+@media all and (min-width:233px) and (max-width:699px){
+	/*文字单词*/
+.text-word{
+	width: 230px;
+	height: 160px;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -115px;
+	text-align: center;
+	background: #ccc;
+}
+.text-word span{
+	font: 40px/44px serif;
+	position: absolute;
+}
+.text-word-1{
+	top: 500px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.text-word-2{
+	top: 544px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.text-word-3{
+	top: 588px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.text-word-4{
+	top: 632px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.text-word-5{
+	top: 676px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+/*media的括号*/	
+}
